@@ -11,7 +11,7 @@ const List = ({ todos }) => (
 
 const mapStateToProps = state => ({
     todos: state.todo.list
-});
+})
 
 
-export default connect(mapStateToProps)(List);
+export default connect(mapStateToProps) (List);

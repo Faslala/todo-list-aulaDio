@@ -3,7 +3,7 @@ export function addTodo(text) {
         type: 'ADD_TODO',
         payload: {
             id: Math.random(),
-            name: text,
+            name: text
         }
     };
 }
